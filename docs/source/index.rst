@@ -10,8 +10,8 @@ Welcome to doctest's documentation!
    :maxdepth: 3
    :caption: Contents:
 
-   layout_test
-   image_test
+   paragraph_test
+   insert_test
    toctree_test
 
 
