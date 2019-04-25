@@ -6,7 +6,9 @@
 Sphinx guide documentation!
 ===================================
 
-Sphinx 문법과 관련된 가이드를 제공합니다.
+| Sphinx 문법과 관련된 가이드를 제공합니다.
+| 다음 GitHub을 참고하세요.
+| `DocTest <https://github.com/sjuuun/DocsTest>`_
 
 .. toctree::
    :maxdepth: 3
