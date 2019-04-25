@@ -16,6 +16,10 @@ Sphinx guide documentation!
 
    paragraph_test
    insert_test
+
+.. toctree::
+   :maxdepth: 1
+
    toctree_test
 
 
