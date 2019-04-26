@@ -5,7 +5,7 @@ Sphinx layout test for documentation
 
 ```bash
 $ git clone https://github.com/sjuuun/DocsTest.git
-$ DocTest/docs
+$ DocsTest/docs
 $ make html
 $ open build/html/index.rst
 ```
