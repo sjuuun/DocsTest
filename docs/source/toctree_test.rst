@@ -7,6 +7,8 @@ Sphinx에서는 table of contents를 이용해서 문서 사이의 관계를 정
 
    공식 홈페이지: `toctree <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html>`_
 
+toctree
+-------
 
 **예시** ::
 
@@ -44,7 +46,7 @@ maxdepth로 table의 depth를 조절할 수 있다.
 numbered
 --------
 
-contenct에  번호를 매길 수도 있다.
+contenct에  번호를 매길 수도 있다. 전체 문서에 numbered가 적용되어 결과값은 출력하지 않는다. 
 
 **예시** ::
 
@@ -53,12 +55,6 @@ contenct에  번호를 매길 수도 있다.
 
       toctree1
       _tree/toctree2
-
-.. toctree::
-   :numbered:
-
-   toctree1
-   _tree/toctree2
 
 
 globbing

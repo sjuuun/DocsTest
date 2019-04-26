@@ -11,15 +11,11 @@ Sphinx guide documentation!
 | `DocTest <https://github.com/sjuuun/DocsTest>`_
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents:
 
    paragraph_test
    insert_test
-
-.. toctree::
-   :maxdepth: 1
-
    toctree_test
 
 
