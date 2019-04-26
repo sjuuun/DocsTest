@@ -9,3 +9,6 @@ $ DocsTest/docs
 $ make html
 $ open build/html/index.rst
 ```
+## Read the Docs Page
+
+https://doc-guide.readthedocs.io/en/latest/index.html
