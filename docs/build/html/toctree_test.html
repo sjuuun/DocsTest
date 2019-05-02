@@ -91,6 +91,12 @@
 <li class="toctree-l3"><a class="reference internal" href="toctree3.html">Table of Contents Tree 3</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#caption">caption</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="toctree1.html">Table of Contents Tree 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_tree/toctree2.html">Table of Contents Tree 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="toctree3.html">Table of Contents Tree 3</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#maxdepth">maxdepth</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="toctree1.html">Table of Contents Tree 1</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_tree/toctree2.html">Table of Contents Tree 2</a></li>
@@ -187,6 +193,63 @@
 </pre></div>
 </div>
 <div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="toctree1.html">Table of Contents Tree 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="toctree1.html#one">One</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="toctree1.html#sub-one">Sub-One</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="toctree1.html#two">Two</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="toctree1.html#sub-two">Sub-Two</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="_tree/toctree2.html">Table of Contents Tree 2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="_tree/toctree2.html#first">First</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="_tree/toctree2.html#sub-first">Sub-First</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="_tree/toctree2.html#second">Second</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="_tree/toctree2.html#sub-second">Sub-Second</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="toctree3.html">Table of Contents Tree 3</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="toctree3.html#one">One</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="toctree3.html#sub-one">Sub-One</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="toctree3.html#two">Two</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="toctree3.html#sub-two">Sub-Two</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="caption">
+<h2>caption<a class="headerlink" href="#caption" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">caption으로 toctree에 대한 설명을 추가할 수 있다.</div>
+<div class="line">또한 name을 설정하면 다른 곳에서 name으로 referencting이 가능하다.</div>
+<div class="line">code: <code class="docutils literal notranslate"><span class="pre">toctree</span> <span class="pre">referencing</span> <span class="pre">:ref:`basic-example`.</span></code></div>
+<div class="line">toctree referencing <a class="reference internal" href="#basic-example"><span class="std std-ref">Content trees</span></a>.</div>
+</div>
+<p><strong>예시</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">toctree</span><span class="p">::</span>
+   <span class="p">:</span><span class="n">caption</span><span class="p">:</span> <span class="n">Content</span> <span class="n">trees</span>
+   <span class="p">:</span><span class="n">name</span><span class="p">:</span> <span class="n">basic</span><span class="o">-</span><span class="n">example</span>
+
+   <span class="n">toctree1</span>
+   <span class="n">_tree</span><span class="o">/</span><span class="n">toctree2</span>
+   <span class="n">toctree3</span>
+</pre></div>
+</div>
+<div class="toctree-wrapper compound" id="basic-example">
+<p class="caption"><span class="caption-text">Content trees</span><a class="headerlink" href="#basic-example" title="Permalink to this toctree">¶</a></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="toctree1.html">Table of Contents Tree 1</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="toctree1.html#one">One</a><ul>

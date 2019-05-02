@@ -7,6 +7,7 @@ Sphinx에서는 table of contents를 이용해서 문서 사이의 관계를 정
 
    공식 홈페이지: `toctree <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html>`_
 
+
 toctree
 -------
 
@@ -23,6 +24,34 @@ toctree
    toctree1
    _tree/toctree2
    toctree3
+
+
+caption
+-------
+
+| caption으로 toctree에 대한 설명을 추가할 수 있다.
+| 또한 name을 설정하면 다른 곳에서 name으로 referencting이 가능하다.
+| code: ``toctree referencing :ref:`basic-example`.``
+| toctree referencing :ref:`basic-example`.
+
+**예시** ::
+
+   .. toctree::
+      :caption: Content trees
+      :name: basic-example
+
+      toctree1
+      _tree/toctree2
+      toctree3
+
+.. toctree::
+   :caption: Content trees
+   :name: basic-example
+
+   toctree1
+   _tree/toctree2
+   toctree3
+
 
 maxdepth
 --------
@@ -59,6 +88,7 @@ contenct에  번호를 매길 수도 있다. 전체 문서에 numbered가 적용
       toctree1
       _tree/toctree2
       toctree3
+
 
 globbing
 --------
